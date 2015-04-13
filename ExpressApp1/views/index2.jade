@@ -15,8 +15,9 @@ html
       #messages li:nth-child(odd) { background: #eee; }
   body
     // Chat area
-    h1 Hi, I&apos;m going to make some changes and see if the Git commands will help.
+    h1(id='textHeader') Hi, I&apos;m going to make some changes and see if the Git commands will help.
     | &#x9;
+    button(class='btn btn-success' id='showMessage' onclick='showMessage()') Show Message
     ul#messages
     | &#x9;
     form(action='')
@@ -28,6 +29,11 @@ html
     script(src='http://code.jquery.com/jquery-1.11.1.js')
     | &#x9;
     script(type='text/javascript').
+      // Adding my own test script
+      var textHeader = $('#textHeader');
+      function showMessage() {
+        textHeader.html("cool");
+      }
       // Creates io object
       var socket = io();
       // OnClick
