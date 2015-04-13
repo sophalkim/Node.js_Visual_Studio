@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="public\javascripts\chat_time.js" />
     <Compile Include="routes\index.js" />
   </ItemGroup>
   <ItemGroup>
@@ -61,7 +62,7 @@
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
     <Content Include="views\chat.jade" />
-    <Content Include="views\index2.jade" />
+    <Content Include="views\chat_time.jade" />
     <Content Include="views\contact.jade" />
     <Content Include="views\about.jade" />
     <Content Include="views\index.jade" />

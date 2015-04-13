@@ -21,6 +21,6 @@ exports.chat = function (req, res) {
 };
 
 // Route to Index2
-exports.index2 = function (req, res) {
-    res.render('index2', { title: 'Index 2', year: new Date().getFullYear(), message: 'This is index 2' });
+exports.chat_time = function (req, res) {
+    res.render('chat_time', { title: 'Index 2', year: new Date().getFullYear(), message: 'This is index 2' });
 };
