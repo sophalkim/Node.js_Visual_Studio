@@ -39,3 +39,11 @@ app.get('/index2', routes.index2);
 http.createServer(app).listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));
 });
+
+// Trying to add chat functionality
+var io = require('socket.io')(http);
+io.on('connection', function (socket) {
+    socket.on('chat message', function (msg) {
+        io.emit('chat message', msg);
+    });
+});
