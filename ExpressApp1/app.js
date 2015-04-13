@@ -35,6 +35,7 @@ app.get('/contact', routes.contact);
 app.get('/chat', routes.chat);
 // Trying to route to full html instead of jade file
 app.get('/chat_time', routes.chat_time);
+app.get('/chart', routes.chart);
 
 http.createServer(app).listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));

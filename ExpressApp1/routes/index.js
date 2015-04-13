@@ -24,3 +24,8 @@ exports.chat = function (req, res) {
 exports.chat_time = function (req, res) {
     res.render('chat_time', { title: 'Index 2', year: new Date().getFullYear(), message: 'This is index 2' });
 };
+
+// Route to Charts
+exports.chart = function (req, res) {
+    res.render('chart', { title: 'Charts', year: new Date().getFullYear(), message: 'This is index 2' });
+};

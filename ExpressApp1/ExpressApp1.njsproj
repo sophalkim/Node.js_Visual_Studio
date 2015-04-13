@@ -32,6 +32,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="public\javascripts\chart.js" />
+    <Compile Include="public\javascripts\Chart.js-master\Chart.js" />
+    <Compile Include="public\javascripts\Chart.js-master\Chart.min.js" />
+    <Compile Include="public\javascripts\Chart.js-master\gulpfile.js" />
+    <Compile Include="public\javascripts\Chart.js-master\src\Chart.Bar.js" />
+    <Compile Include="public\javascripts\Chart.js-master\src\Chart.Core.js" />
+    <Compile Include="public\javascripts\Chart.js-master\src\Chart.Doughnut.js" />
+    <Compile Include="public\javascripts\Chart.js-master\src\Chart.Line.js" />
+    <Compile Include="public\javascripts\Chart.js-master\src\Chart.PolarArea.js" />
+    <Compile Include="public\javascripts\Chart.js-master\src\Chart.Radar.js" />
     <Compile Include="public\javascripts\chat_time.js" />
     <Compile Include="routes\index.js" />
   </ItemGroup>
@@ -39,6 +49,30 @@
     <None Include="Node987.pubxml" />
     <Content Include="public\javascripts\bootstrap.js" />
     <Content Include="public\javascripts\bootstrap.min.js" />
+    <Content Include="public\javascripts\Chart.js-master\.gitignore" />
+    <Content Include="public\javascripts\Chart.js-master\.travis.yml" />
+    <Content Include="public\javascripts\Chart.js-master\bower.json" />
+    <Content Include="public\javascripts\Chart.js-master\CONTRIBUTING.md" />
+    <Content Include="public\javascripts\Chart.js-master\docs\00-Getting-Started.md" />
+    <Content Include="public\javascripts\Chart.js-master\docs\01-Line-Chart.md" />
+    <Content Include="public\javascripts\Chart.js-master\docs\02-Bar-Chart.md" />
+    <Content Include="public\javascripts\Chart.js-master\docs\03-Radar-Chart.md" />
+    <Content Include="public\javascripts\Chart.js-master\docs\04-Polar-Area-Chart.md" />
+    <Content Include="public\javascripts\Chart.js-master\docs\05-Pie-Doughnut-Chart.md" />
+    <Content Include="public\javascripts\Chart.js-master\docs\06-Advanced.md" />
+    <Content Include="public\javascripts\Chart.js-master\docs\07-Notes.md" />
+    <Content Include="public\javascripts\Chart.js-master\LICENSE.md" />
+    <Content Include="public\javascripts\Chart.js-master\package.json" />
+    <Content Include="public\javascripts\Chart.js-master\README.md" />
+    <Content Include="public\javascripts\Chart.js-master\samples\bar.html" />
+    <Content Include="public\javascripts\Chart.js-master\samples\doughnut.color.html" />
+    <Content Include="public\javascripts\Chart.js-master\samples\doughnut.html" />
+    <Content Include="public\javascripts\Chart.js-master\samples\line-customTooltips.html" />
+    <Content Include="public\javascripts\Chart.js-master\samples\line.html" />
+    <Content Include="public\javascripts\Chart.js-master\samples\pie-customTooltips.html" />
+    <Content Include="public\javascripts\Chart.js-master\samples\pie.html" />
+    <Content Include="public\javascripts\Chart.js-master\samples\polar-area.html" />
+    <Content Include="public\javascripts\Chart.js-master\samples\radar.html" />
     <Content Include="public\javascripts\jquery-1.10.2.intellisense.js" />
     <Content Include="public\javascripts\jquery-1.10.2.js" />
     <Content Include="public\javascripts\jquery-1.10.2.min.js" />
@@ -59,9 +93,11 @@
     <Content Include="public\javascripts\jquery-1.10.2.min.map" />
     <Content Include="public\stylesheets\bootstrap.css" />
     <Content Include="public\stylesheets\bootstrap.min.css" />
+    <Content Include="public\stylesheets\chat_time.css" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
     <Content Include="views\chat.jade" />
+    <Content Include="views\chart.jade" />
     <Content Include="views\chat_time.jade" />
     <Content Include="views\contact.jade" />
     <Content Include="views\about.jade" />
@@ -80,6 +116,10 @@
     <Folder Include="public\fonts\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
+    <Folder Include="public\javascripts\Chart.js-master\" />
+    <Folder Include="public\javascripts\Chart.js-master\docs\" />
+    <Folder Include="public\javascripts\Chart.js-master\samples\" />
+    <Folder Include="public\javascripts\Chart.js-master\src\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />
